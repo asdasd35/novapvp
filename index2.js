@@ -4,11 +4,14 @@ function validate()
     var password=document.getElementById('password').value
     if(username=="admin"&& password=="user")
     {
-        alert('Sikeres bejelentkezés!')
+        setTimeout(() => {
+            window.location = 'webshop2.html'
+
+        }, 1);
         return false
     }
 else
 {
-    alert('Sikertelen bejelentkezés!')
+    location.reload
 }
 }
