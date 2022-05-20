@@ -4,7 +4,6 @@ body {
     font-family: sans-serif;
     background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)), url("img/minecraft.jpg") no-repeat center center fixed;
     background-size: cover;
-    position: relative;
 }
 
 .box {
