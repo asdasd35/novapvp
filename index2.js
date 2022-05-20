@@ -7,7 +7,7 @@ function validate()
         setTimeout(() => {
             window.location = 'webshop2.html'
 
-        }, 1);
+        }, 2);
         return false
     }
 else
