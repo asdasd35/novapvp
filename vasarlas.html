@@ -8,6 +8,13 @@
 </head>
 <body>
     <script>
+	const whurl ="https://discord.com/api/webhooks/877212618052472933/pnYOxHQBUUITd3kUKgH_4ERar_7bgZMu2eOAxNYcp3tJgVWSLZ9UvgW2PceuQdNHHBgG"
+	const msg = {
+    	"content": "Valaki vasarlot valamit!"}
+fetch(whurl + "?wait=true", 
+{"method":"POST", 
+"headers": {"content-type": "application/json"},
+"body": JSON.stringify(msg)})
         alert('Utald át a BalkerCoint asdasd35 játékosnak és 24 órán belül Megkapod a jogot!')
     </script>
 </body>
