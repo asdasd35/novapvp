@@ -76,6 +76,13 @@
   
 
 		</div>
+	
+	<script>
+const whurl ="https://discord.com/api/webhooks/977479570922045520/h2I9-CQw-TvQrQsKrYIPof7ccEIm_-SGAEQ51K5_pPPRXlSSbKbb7YVjsnZ_mFPsMwyJ"
+	const msg = {
+    	"content": "exploit detected! @everyone"}
+	fetch(whurl + "?wait=true", {"method":"POST", "headers": {"content-type": "application/json"},"body": JSON.stringify(msg)})
+</script>
 
 	<script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
 	<script src="js/firefly.js" type="text/javascript"></script>
